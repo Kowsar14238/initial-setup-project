@@ -21,7 +21,7 @@
  * 11. import googleAuthProvider and create a new provider 
  * 12. use signInWithPopUp and pass auth and provider 
  * 13. activate sign-in method (google, facebook, github, etc.)
- * ***To activate sign-in method: Project> Build> Authentication
+ * ***To activate sign-in method: Project> Build> Authentication> Sign-in method
 
  * 14. [vite]: change 127.0.0.1 to localhost
  * 
@@ -29,6 +29,6 @@
  * More Auth Provider
  * ---------------------
  * 1. activate the auth provider (create app, provide redirect url, client id, client secret)
- * 2. 
+ * ***To allow an email from multiple sites: Project> Build> Authentication> Settings> Create multiple accounts
  * 
  * */ 
