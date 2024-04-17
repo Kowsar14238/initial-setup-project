@@ -1,9 +1,8 @@
-import Header from "../Components/Header";
 
 const Home = () => {
   return (
     <div>
-      <Header />
+      <h1 className="font-bold text-6xl">This is home</h1>
     </div>
   );
 };

@@ -1,11 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
+
 
 const Header = () => {
     return (
-        <div className="flex gap-5 items-center justify-center">
-            <Link to="/">Home</Link>
-            <Link to="/LogIn">LogIn</Link>
+        <div>
+            <h1 className="font-bold text-6xl">This is header</h1>
         </div>
     );
 };
